@@ -1,0 +1,51 @@
+<!Doctype HTML>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta lang="en">
+        <meta name="description" content="Scourge GOC">
+        <meta name="author" content="Bright-lumen">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <title>JavaScript extension</title>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+    <style>
+        header { 
+            text-align:center;
+        }
+        p a { text-decoration: none;
+        color:blue;
+        }
+        p a:hover {
+            border-bottom: 3px solid blue;
+            transition: 0.4s
+        }
+        label span {
+            color:red
+        }
+        h1 span {color:}
+        code {
+            color:blue
+        }
+    </style>
+        <main>
+        <header>
+            <h1>BRIGHTTIME <code>ENTERPRISE</code></h1>
+            <h2>Welcome to Bright Times Enterprise</h3>
+            <p style="padding:0.5em">Sign In to your account</p>
+            <p>You don't have an account with Brighttimes Enterprise, <a href="#">Sign Up Here</a></p>
+        </header>
+        <form class="forms">
+            <label for="name">Email<span>*</span></label>
+            <input type="email" id="userName" placeholder="Email" required min="5" max="10">
+            <label for ="password">Password<span>*</span></label>
+            <input type="password" id="password" placeholder="Password" REQUIRED  max="8">
+            <input type="checkbox" id="checked"><small> Remember your account</small><br>
+            <input type="submit" value="Sign in" id="button" onSubmit="return emailValidation()">
+        </div>
+        </main>
+    </body>
+ </html>
